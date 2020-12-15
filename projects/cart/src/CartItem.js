@@ -20,7 +20,7 @@ class CartItem extends React.Component{
                     <div style={{fontSize:25}}>{title}</div>
                     <div style={{color:'#777',fontSize:25}}>Rs {price}</div>
                     <div style={{color:'#777'}}>Qty:{qty}</div>
-                    <div className="cart-items-actions">
+                    <div className="cart-item-actions">
                         {/*Buttons*/}
                         <img alt="increase" className="action-icons" src="https://www.flaticon.com/svg/static/icons/svg/992/992651.svg"/>
                         <img alt="decrease" className="action-icons" src="https://www.flaticon.com/svg/static/icons/svg/992/992683.svg"/>
